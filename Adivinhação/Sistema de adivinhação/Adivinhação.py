@@ -1,9 +1,9 @@
 numero_secreto = 43
-chances = 5
+tentativas = 5
 
 
 
-while chances > 0:
+while tentativas > 0:
     chute = input("Digite o seu numero:")
     print("Voce digitou", chute)
     chute = int(chute)
@@ -13,12 +13,10 @@ while chances > 0:
     else:
         if(chute > numero_secreto):
             print("Voce errou, seu chute foi maior que o numero secreto!")
-            chances -=1
-            print("voce possui mais", chances, "chances.")
         else:
             print("Voce errou, seu numero foi menor que o numero secreto")
-            chances -=1
-            print("voce possui mais", chances, "chances.")
+    tentativas -=1        
+    print("voce possui mais {} chances.".format(tentativas))
 
-if(chances == 0):
+if(tentativas == 0):
     print("Voce perdeu!")

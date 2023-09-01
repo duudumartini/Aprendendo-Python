@@ -5,6 +5,10 @@ dicamenor = random.randint(1, 10)
 tentativa = 5
 dica = "O seu numero está entre", numero_aleatorio - dicamenor, "e", numero_aleatorio + dicamaior, ", boa sorte!"
 
+print("********************************************************")
+print("*********** Bem vindo ao jogo de Advinhacao ************")
+print("********************************************************")
+
 print("***********************************************************************")
 print(dica)
 print("***********************************************************************")

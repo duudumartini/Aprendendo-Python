@@ -1,2 +1,2 @@
 # Aprendendo-Python
-Repositório destinado a período de aprendizagem da linguagem Python.
+Repositório destinado ao período de aprendizagem da linguagem Python.

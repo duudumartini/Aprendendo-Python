@@ -18,9 +18,7 @@ def CarregaPalavrasSecretas():
 mensagemAbertura()
 
 palavra_secreta = CarregaPalavrasSecretas()
-
 lista = ["_" for letra in palavra_secreta]
-
 chances = 10
 enforcou = False
 acertou = False
